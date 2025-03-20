@@ -170,3 +170,41 @@ footer a:hover {
     color: #333; /* Dark grey text */
 }
 
+/* Gallery Section */
+.gallery {
+    padding: 50px 0;
+    background: #fff; /* White background */
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #003366; /* Navy blue */
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 15px; /* Space between images */
+    padding: 0 20px;
+}
+
+.gallery-item {
+    overflow: hidden; /* Ensures images don't overflow */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.gallery-item img {
+    width: 100%; /* Make images fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below images */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}

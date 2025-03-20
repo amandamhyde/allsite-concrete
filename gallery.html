@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Allsite Concrete</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- Lightgallery CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Allsite Concrete</h1>
+            <p>Quality Concrete Solutions for Every Project</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2>Our Work</h2>
+            <div class="gallery-grid">
+                <!-- Add images here -->
+                <div class="gallery-item">
+                    <a href="images/img1.jpg" data-sub-html="Driveway - Before">
+                        <img src="images/img1.jpg" alt="Driveway - Before">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img2.jpg" data-sub-html="Driveway - After">
+                        <img src="images/img2.jpg" alt="Driveway - After">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img3.jpg" data-sub-html="Sidewalk - Before">
+                        <img src="images/img3.jpg" alt="Miscellaneous">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img4.jpg" data-sub-html="Sidewalk - After">
+                        <img src="images/img4.jpg" alt="Concrete Project 4">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img5.jpg" data-sub-html="Miscellaneous">
+                        <img src="images/img5.jpg" alt="Miscellaneous">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img6.jpg" data-sub-html="Pool Work">
+                        <img src="images/img6.jpg" alt="Concrete Project 6">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img7.jpg" data-sub-html="Pool Work">
+                        <img src="images/img7.jpg" alt="Concrete Project 7">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img8.jpg" data-sub-html="Pool Work">
+                        <img src="images/img8.jpg" alt="Pool Work">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img9.jpg" data-sub-html="Yard Work">
+                        <img src="images/img9.jpg" alt="Yard Work">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img10.jpg" data-sub-html="Driveway Work">
+                        <img src="images/img10.jpg" alt="Driveway Work">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img11.jpg" data-sub-html="Driveway Work">
+                        <img src="images/img11.jpg" alt="Driveway Work">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img12.jpg" data-sub-html="Driveway Work">
+                        <img src="images/img12.jpg" alt="Driveway Work">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img13.jpg" data-sub-html="Driveway Work">
+                        <img src="images/img13.jpg" alt="Driveway Work">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img14.jpg" data-sub-html="Driveway Work">
+                        <img src="images/img14.jpg" alt="Driveway Work">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img15.jpg" data-sub-html="Work For a Business">
+                        <img src="images/img15.jpg" alt="Work For a Business">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img16.jpg" data-sub-html="Work For a Business">
+                        <img src="images/img16.jpg" alt="Work For a Business">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img17.jpg" data-sub-html="Work For a Business">
+                        <img src="images/img17.jpg" alt="Work For a Business">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/img18.jpg" data-sub-html="Work For a Business">
+                        <img src="images/img18.jpg" alt="Work For a Business">
+                    </a>
+                </div>
+                <!-- Repeated for all 18 images -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Allsite Concrete. All rights reserved.</p>
+            <p>Contact us: <a href="tel:+1234567890">(123) 456-7890</a> | <a href="mailto:info@allsiteconcrete.com">info@allsiteconcrete.com</a></p>
+        </div>
+    </footer>
+
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            lightGallery(document.querySelector('.gallery-grid'), {
+                selector: '.gallery-item a',
+                download: false,
+            });
+        });
+    </script>
+</body>
+</html>
