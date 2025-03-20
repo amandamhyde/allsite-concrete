@@ -208,3 +208,92 @@ footer a:hover {
     transform: scale(1.05); /* Slightly enlarge on hover */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
 }
+
+/* Contact Section */
+.contact {
+    padding: 50px 0;
+    background: #fff; /* White background */
+}
+
+.contact h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003366; /* Navy blue */
+}
+
+.contact p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333; /* Dark grey text */
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.contact-details, .contact-form {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.contact-details h3, .contact-form h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #003366; /* Navy blue */
+}
+
+.contact-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-details ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #333; /* Dark grey text */
+}
+
+.contact-details ul li strong {
+    color: #003366; /* Navy blue */
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1.1rem;
+    margin: 10px 0 5px;
+    color: #333; /* Dark grey text */
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background: #003366; /* Navy blue */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #002244; /* Darker navy blue */
+}
