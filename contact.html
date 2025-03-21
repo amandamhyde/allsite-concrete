@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Allsite Concrete</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact - Allsite Concrete</title>
     <!-- Favicon info -->
     <link rel="apple-touch-icon" sizes="57x57" href="concrete-icon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="concrete-icon/apple-icon-60x60.png">
@@ -23,31 +22,60 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="concrete-icon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Header Section -->
+    <!-- Header Section (Same as other pages) -->
     <header>
         <div class="container">
             <h1>Allsite Concrete</h1>
             <p>Quality Concrete Solutions for Every Project</p>
             <nav>
                 <ul>
-                    <li><a href="html/index.html">Home</a></li>
-                    <li><a href="html/about.html">About Us</a></li>
-                    <li><a href="html/services.html">Services</a></li>
-                    <li><a href="html/gallery.html">Gallery</a></li>
-                    <li><a href="html/contact.html">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- About Us Content -->
-    <section class="about">
+    <!-- Contact Section -->
+    <section class="contact">
         <div class="container">
-            <h2>About Us</h2>
-            <p>Allsite Concrete has been a trusted name in the concrete construction industry for over a decade. We specialize in delivering high-quality concrete solutions for both residential and commercial projects.</p>
-            <p>Our team of experienced professionals is dedicated to providing durable, efficient, and cost-effective concrete services tailored to meet your needs.</p>
+            <h2>Contact Us</h2>
+            <p>Have a question or want to request a quote? Get in touch with us!</p>
+            <div class="contact-info">
+                <div class="contact-details">
+                    <h3>Contact Information</h3>
+                    <ul>
+                        <li><strong>Phone:</strong> <a href="tel:+13214385270">(321) 438-5270</a></li>
+                        <li><strong>Email:</strong> <a href="allsiteconcrete@gmail.com">allsiteconcrete@gmail.com</a></li>
+                        <!-- <li><strong>Address:</strong> 123 Concrete St, City, State, ZIP</li> -->
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form action="https://formspree.io/f/your-form-id" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone">
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
